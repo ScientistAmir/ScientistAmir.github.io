@@ -1,12 +1,17 @@
-.navBar {
-    background-color: red;
-    padding: 10px;
-    color: white;
+.image-fit {
+    object-fit: cover;
 }
 
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.trickcenter {
+    position: relative;
+    /* text-decoration-line: underline; */
+    text-decoration-color: white;
+    /* text-decoration-style: double; */
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 25;
+    word-spacing: 10px;
+    white-space: nowrap;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+    font-family: Papyrus;
 }
